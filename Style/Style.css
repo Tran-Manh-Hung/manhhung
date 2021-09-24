@@ -1,0 +1,188 @@
+/* CSS Document */
+body{
+	margin: 0 0 10px 0; color: #777;
+	font-size: 0.85em; background-color: black;
+}
+#grid-container-header{
+	padding: 15px 10px;
+	display: grid; background-color: #000000;
+	grid-template-columns: auto auto;
+}
+.navbar a{
+	float: left; font-size: 16px; color: white;
+	text-align: center; padding: 10px 16px;
+	text-decoration: none;
+}
+.navbar a:hover, .dropdown:hover .dropbtn{
+	background-color: #FFC600;
+}
+#grid-container-header .navbar .active{
+	background-color: #FFC600; color: white;
+}
+#grid-container-header .search-container{
+	text-align: right;
+}
+#grid-container-header input[type=text]{
+	padding: 6px;
+	font-size: 17px;
+	border: none;
+}
+#grid-container-header .search-container button{
+	padding:6px 10px; margin-right: 16px;
+	background: #ddd; font-size: 17px;
+	border: none; cursor: pointer;
+}
+#grid-container-banner{
+	margin: 0;
+}
+#grid-container-banner img{
+	width: 100%
+}
+#grid-container-art{
+	display: flex;
+	background-color: black; padding: 30px 0;
+}	
+#grid-container-art .left{
+	width: 20%; padding-left: 5%;
+}
+#grid-container-art .left a:link{
+	display: block; text-decoration: none;
+	padding: 10px 0px; color: #FFC600;
+}
+#grid-container-art .sanpham{
+	width: 80%;
+	display: flex;
+}
+#grid-container-art .item img{
+	width: 100%;
+}
+#grid-container-art .item{
+	background-color: #FFFFFF; margin: 0 1%;
+	width: 31%; padding: 1%; text-align: justify;
+}
+#grid-container-art .item h4{
+	text-align: center;
+}
+#grid-container-daubep{
+	background-color: #f2f2f2; padding: 30px;
+	display: grid;
+	grid-template-columns: 20%;
+	justify-content: center; grid-gap: 10px;
+}
+.item-khungbep{
+	border-radius: 50%;
+	border: none solid 2px;
+}
+.item-khungbep img{
+	border-radius: 50%; width: 100%;
+	opacity: 0.5;
+}
+.item-khungbep img:hover{
+	opacity: 1;
+}
+#grid-content-gioithieu{
+	padding: 50px 200px 50px 120px; display: grid;
+	grid-template-columns: 60% 20% 20%;
+	grid-gap: 5px;
+}
+#grid-content-gioithieu .item-noidung{
+	padding-right: 10%;
+}
+#grid-content-gioithieu .item-noidung p{
+	text-align: justify; line-height: 2;
+}
+#grid-content-gioithieu .item-hinhgioithieu img{
+	width: 100%; 
+}
+#grid-container-feedback{
+	padding: 20px 80px; background-color: #f2f2f2;
+	display: grid;
+	grid-template-columns: 20% 20% 20% 20%;
+	justify-content: center;
+	grid-gap: 0px 50px;
+}
+#grid-container-feedback p.nx{
+	font-style: italic; text-align: justify;
+	line-height: 2; color: #808080;
+}
+#grid-container-feedback p.kh{
+	font-weight: bold; color: #e68a00;
+}
+#grid-container-footer{
+	background-color: #000; padding: 20px;
+	display: grid;
+	justify-content: space-between;
+	grid-template-columns: auto auto;
+}
+#grid-container-footer .item-lienhe li{
+	line-height: 2;
+}
+#grid-container-footer .item-map{
+	height: 100%;
+}
+.item-lienhe ul{
+	list-style-type: none;
+}
+.dropdown{
+	float: left; overflow: hidden;
+}
+.dropdown .dropbtn{
+	font-size: 16px; border: none;
+	color: white; padding: 10px 16px;
+	background-color: inherit;
+	font-family: inheri; margin: 0;
+}
+.dropdown-content{
+	display: none;
+	position: absolute; background-color: #f9f9f9;
+	min-width: 160px; z-index: 1;
+	box-shadow: 0px 8px 16px 0px #e6e6e6;
+}
+.dropdown-content a{
+	float: none; color: black; display: block;
+	padding: 12px 16px; text-decoration: none;
+	text-align: left;
+}
+.dropdown-content a:hover{
+	background-color: #ddd;
+}
+.dropdown:hover .dropdown-content{
+	display: block;
+}
+#grid-container-datban{
+	padding: 100px 100px;
+	display: grid;
+	grid-template-columns: 55% 45%;
+	justify-content: center;
+	grid-gap: 50px;
+}
+#grid-container-datban .item-form{
+	font-weight: bold;
+}
+#grid-container-datban .item-form form{
+	padding-top: 50px;
+}
+#grid-container-datban .item-hinhdatban img{
+	width: 100%;
+}
+#grid-container-datban table{
+	width: 100%;
+}
+.item-form .left{
+	text-align: left;
+}
+.item-form .right{
+	text-align: right;
+}
+.item-form input[type=button]{
+	width: 150px;
+	height: 40px;
+	border: none;
+	color: #FFFFFF;
+	background-color: #FFC600;
+}
+h2.title{
+	margin: 0; padding: 20px 0; letter-spacing: 2px;
+	text-align: center; text-transform: uppercase;
+	font-size: 2em; font-weight: 700;
+}
